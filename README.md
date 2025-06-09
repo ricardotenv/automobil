@@ -29,7 +29,8 @@ Siga os passos abaixo:
     Com o Poetry instalado e dentro da pasta do projeto, execute:
 
     ```bash
-    poetry install & poetry shell
+    poetry shell
+    poetry install
     ```
 
 4.  **Popule o Banco de Dados:**
