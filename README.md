@@ -12,6 +12,10 @@ Siga os passos abaixo:
     *   O agente utiliza a API do Gemini (atualmente testado com Gemini Flash 2.0).
     *   Na pasta raiz do projeto (`automobil/`), crie um arquivo chamado `.env`.
     *   Adicione o seguinte conteúdo, substituindo `sua_chave_aqui` pela sua chave API:
+    *   Declare a varíável também no terminal
+      ```bash
+      export GEMINI_API_KEY=
+      ```
 
     ```env
     DATABASE_URL=sqlite:///database.db
